@@ -1,6 +1,4 @@
 
-const { expect } = require('expect');
-const { test } = require('jest-circus');
 const Employee = require('../libs/Employee');
 
 
@@ -33,6 +31,7 @@ test('get name from getName', () => {
     const employee = new Employee(name);
     expect(employee.getName()).toBe(name);
 });
+
 
 test ('get ID from getId', () => {
     const setID = "6578"
