@@ -41,7 +41,12 @@ test ('get ID from getId', () => {
 
 test('get email from getEmail', () => {
     const setEmail = "Name@place.com"
-    const employee = new Employee("Name", 1, "setEmail");
+    const employee = new Employee("Name", 1, setEmail);
     expect(employee.getEmail()).toBe(setEmail);
 });
 
+test('getRole function', () => {
+    const testRole = "Employee"
+    const employee = new Employee("Name", 1, "name@place.com");
+    expect(employee.getRole()).toBe(testRole);
+});
