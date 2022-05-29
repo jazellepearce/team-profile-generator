@@ -4,6 +4,7 @@ User will follow prompts then recieve a webpage with their teams information.
 
 # Video Walkthrough
 <iframe src="https://drive.google.com/file/d/15Ls7vKGQYcnkObU8w7hBLQsehUOg0LUt/preview" width="640" height="480"></iframe>
+Please click pop out button to the right of the screen to view video once you click the link
 
 
 # User Story
