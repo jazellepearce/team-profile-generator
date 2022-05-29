@@ -39,8 +39,8 @@ const questions = [
   {
     type: "list",
     name: "role",
-    message: "What team member would you like to add",
-    choices: ["intern", "employee"],
+    message: "What team member are you?",
+    choices: ["intern", "employee", "manager"],
   },
 
    /*{
@@ -79,7 +79,7 @@ const internQuestions = [
 {
   type: 'list',
   name: 'continue',
-  message: 'You like to add another team member?',
+  message: 'Do you wish to continue?',
   choices: ['yes', 'no']
 }
   
@@ -112,7 +112,7 @@ const engineerQuestions = [
   {
   type: 'list',
   name: 'continue',
-  message: 'You like to add another team member?',
+  message: 'Do you wish to continue?',
   choices: ['yes', 'no']
   }
 
