@@ -5,13 +5,15 @@
   "main": "app.js",
   "scripts": {
     "test": "jest",
-    "start": "node ./index.js"
+    "start": "npm run rimraf && node ./index.js",
+    "rimraf": "rm -rf ./index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.2.0-beta1",
     "inquirer": "^7.0.3",
-    "jest": "^24.9.0"
+    "jest": "^28.1.0"
   }
 }
