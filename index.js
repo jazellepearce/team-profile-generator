@@ -43,12 +43,12 @@ const questions = [
     choices: ["intern", "employee"],
   },
 
-  /* {
+   /*{
         type: 'list',
         name: 'continue',
         message: 'You like to add another team member?',
         choices: ['yes', 'no']
-    }*/
+    },*/
 ];
 
 const internQuestions = [
@@ -69,12 +69,20 @@ const internQuestions = [
     message: "What school do you go to?",
   },
 
+
   {
     type: "list",
-    name: "continue",
+    name: "role",
     message: "You like to add another team member?",
     choices: ["engineer", "intern", "no"],
   },
+{
+  type: 'list',
+  name: 'continue',
+  message: 'You like to add another team member?',
+  choices: ['yes', 'no']
+}
+  
 ];
 const engineerQuestions = [
   {
@@ -94,12 +102,20 @@ const engineerQuestions = [
     message: "Please insert Github username",
   },
 
+
   {
     type: "list",
-    name: "continue",
+    name: "role",
     message: "You like to add another team member?",
     choices: ["engineer", "intern", "no"],
   },
+  {
+  type: 'list',
+  name: 'continue',
+  message: 'You like to add another team member?',
+  choices: ['yes', 'no']
+  }
+
 ];
 
 function writeToFile(fileName, data) {
