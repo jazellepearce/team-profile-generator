@@ -5,6 +5,8 @@ User will follow prompts then recieve a webpage with their teams information.
 # Video Walkthrough
 <iframe src="https://drive.google.com/file/d/15Ls7vKGQYcnkObU8w7hBLQsehUOg0LUt/preview" width="640" height="480"></iframe>
 Please click pop out button to the right of the screen to view video once you click the link
+![Untitled_ May 29, 2022 6_49 PM (1)](https://user-images.githubusercontent.com/97758609/170896377-991d57d0-cdd3-4a74-9bfe-e375eeed17ff.gif)
+The above displays the test
 
 
 # User Story
